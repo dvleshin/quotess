@@ -75,7 +75,7 @@ const topQuotes = [
 ]
 
 async function getQuote(cat) {
-    const API = `http://quotes.rest/qod.json?category=${cat}`;
+    const API = `https://quotes.rest/qod.json?category=${cat}`;
     const res = await Axios.get(API);
     try {
         return res.data
@@ -85,7 +85,7 @@ async function getQuote(cat) {
 }
 
 async function getRdnQuote(cat) {
-    const API = `http://quotes.rest/qod.json?category=${cat}`;
+    const API = `https://quotes.rest/qod.json?category=${cat}`;
     const res = await Axios.get(API);
     try {
         return res.data
