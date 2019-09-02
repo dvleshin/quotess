@@ -1,4 +1,4 @@
-# quotess
+# quotess app
 
 quatess - get quote of the day in categories: 
     - Inspire
