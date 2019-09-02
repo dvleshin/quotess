@@ -1,0 +1,52 @@
+.quote-container {}
+
+blockquote {
+    font-family: 'Montserrat-Bold', serif;
+    font-size: 25px;
+    font-style: italic;
+    margin: 0;
+    padding: rem(40px);
+    padding-top: rem(40px);
+    line-height: 1.45;
+    position: relative;
+    color: $clr3;
+    min-height: 50vh;
+}
+
+blockquote:before {
+    display: block;
+    font-family: 'Georgia', serif;
+    padding-left: rem(10px);
+    content: "\201C";
+    font-size: 80px;
+    position: absolute;
+    left: rem(-5px);
+    top: rem(5px);
+}
+
+blockquote cite {
+    color: #000;
+    font-size: rem(14px);
+    display: block;
+    margin-top: rem(5px);
+}
+
+blockquote cite:before {
+    content: "\2014 \2009";
+}
+
+.btn-quote {
+    border: 0px;
+    padding-top: rem(5px);
+    font-size: rem(13px);
+    text-decoration: none;
+    color: $clr5;
+    background-color: #fff;
+    outline: none;
+    cursor: pointer;
+}
+
+.btn-quote i {
+    font-size: rem(30px);
+    @include fa-gradient;
+}

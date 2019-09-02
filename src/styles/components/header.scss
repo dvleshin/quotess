@@ -1,0 +1,12 @@
+header {
+    height: rem(50px);
+    width: 100vw;
+    max-width: rem($sm);
+    @include gradient;
+}
+
+.header-logo {
+    font-family: 'Olivier', sans-serif;
+    font-size: rem(35px);
+    color: $clr3;
+}

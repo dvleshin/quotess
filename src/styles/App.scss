@@ -1,0 +1,30 @@
+// Setup
+@import "setup/variables.scss";
+@import "setup/functions.scss";
+@import "setup/mixins.scss";
+
+
+//Basic
+@import "basic/base.scss";
+@import "basic/helpers.scss";
+@import "basic/layout.scss";
+@import "basic/typography.scss";
+
+//Pages
+@import "pages/HomePage.scss";
+@import "pages/QuotePage.scss";
+
+//Components
+@import "components/footer.scss";
+@import "components/header.scss";
+@import "components/quote-preview.scss";
+@import "components/tag.scss";
+@import "components/top10-preview.scss";
+
+.app {
+    max-width: rem($sm);
+    margin: 0 auto;
+}
+.app-container {
+  position: relative;
+}

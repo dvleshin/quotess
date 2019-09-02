@@ -1,0 +1,4 @@
+http://quotes.rest/qod.json?category=art
+http://quotes.rest/qod/categories.json
+
+https://api.quotable.io/random

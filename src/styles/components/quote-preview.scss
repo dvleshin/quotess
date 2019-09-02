@@ -1,0 +1,39 @@
+.quotes-list li:nth-last-child(1) {
+    margin-bottom: rem(40px);
+} 
+.fav-quote {
+    padding: rem(7px);
+    border: rem(1px) solid $clr6;
+    margin: 0 10px 7px 10px;
+    border-radius: rem(5px);
+}
+
+.txt-quote {
+    font-family: 'Montserrat-Bold', serif;
+}
+
+.author-qoute {
+    text-align: end;
+}
+
+.author-qoute:before {
+    content: "\2014 \2009";
+}
+
+.fav-tags {
+    margin-top: rem(10px);
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+.btn-del-fav-quote {
+    padding: 0px;
+    margin-top: rem(10px);
+    font-size: rem(25px);
+    margin-left: rem(25px);
+    margin-right: rem(4px);
+    border: 0px;
+    background-color: #fff;
+    outline: none;
+    cursor: pointer;
+}

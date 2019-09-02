@@ -1,0 +1,37 @@
+.fav-tag {
+    position: relative;
+    background-color: $clr1;
+    margin-left: rem(10px);
+    margin-top: rem(5px);
+    padding: 0 rem(5px) rem(1px) rem(10px);
+    font-size: rem(10px);
+    box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+    color: $clr3;
+    font-weight: 600; 
+    height: 13px;
+}
+
+.fav-tag:before {
+    content: "";
+    position: absolute;
+    top:0;
+    left: rem(-7px);
+    width: 0;
+    height: 0;
+    border-color: transparent $clr1 transparent transparent;
+    border-style: solid;
+    border-width: rem(7px) rem(7px) rem(7px) 0; 
+}
+
+.fav-tag:after {
+    content: "";
+    position: absolute;
+    top: rem(5px);
+    left: rem(-1px);
+    float: left;
+    width: rem(3px);
+    height: rem(3px);
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: rem(-1px) rem(-1px) rem(2px) rgba(0,0,0,0.4);
+} 

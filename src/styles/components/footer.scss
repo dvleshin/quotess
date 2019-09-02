@@ -1,0 +1,27 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  height: rem(50px);
+  width: 100%;
+  max-width: rem($sm);
+  background-color: $clr3;
+  border-top: 1px solid $clr6;
+}
+
+.nav {
+  padding-top: rem(5px);
+  font-size: rem(11px);
+  text-decoration: none;
+  color: $clr5;
+}
+
+.nav i {
+  font-size: rem(30px);
+}
+
+.active i {
+  @include fa-gradient;
+}
+.active {
+  color: $clr1;
+}
