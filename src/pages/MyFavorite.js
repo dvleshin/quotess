@@ -33,7 +33,6 @@ const MyFavorite = (props) => {
 }
 
 const mapStateToProps = (state) => {
-    console.log('Fav State:', state.userReducer.favQuotes);
     return {
         quotes: state.userReducer.favQuotes
     }

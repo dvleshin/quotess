@@ -1,5 +1,4 @@
 # quotess app
-
 quatess - get quote of the day in categories: 
     - Inspire
     - Management
@@ -9,7 +8,9 @@ quatess - get quote of the day in categories:
     - Love
     - Art
     - Students
-and top 10 quotes
+and top 10 quotes.
+
+DEMO: https://quotess.herokuapp.com
 
 (Its Recommended To use Dev tools and emulate the app in Iphone X and Pixel 2XL sizes)
 

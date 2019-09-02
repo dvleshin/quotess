@@ -30,8 +30,6 @@ const Top10 = (props) => {
 }
 
 const mapStateToProps = (state) => {
-    console.log('Top10:', state.quoteReducer.top10);
-    
     return {
         quotes:state.quoteReducer.top10
     }
